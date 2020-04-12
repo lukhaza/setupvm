@@ -13,3 +13,7 @@ sudo apt install docker.io docker-compose -y
 apt install zsh -y
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 chsh -s $(which zsh)
+git clone git@github.com:lukhaza/simple-angular-ui.git
+git clone git@github.com:lukhaza/simple-nestjs-api.git
+cd simple-angular-ui && npm install
+cd ../simple-nestjs-api && npm install
